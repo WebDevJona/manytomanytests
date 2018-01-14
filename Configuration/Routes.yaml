@@ -1,0 +1,24 @@
+-
+  name: 'Index'
+  uriPattern: ''
+  defaults:
+    '@package':    'WebDevJona.ManyToManyTests'
+    '@controller': 'Standard'
+    '@action':     'index'
+    '@format':     'html'
+-
+  name: 'Add User'
+  uriPattern: 'user'
+  defaults:
+    '@package':    'WebDevJona.ManyToManyTests'
+    '@controller': 'Standard'
+    '@action':     'addUser'
+    '@format':     'html'
+-
+  name: 'Add Favorite'
+  uriPattern: 'user/{user}/favorite'
+  defaults:
+    '@package':    'WebDevJona.ManyToManyTests'
+    '@controller': 'Standard'
+    '@action':     'addFavorite'
+    '@format':     'html'

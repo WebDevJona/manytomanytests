@@ -1,0 +1,11 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        WebDevJona.ManyToManyTests: true
+    persistence:
+      backendOptions:
+        dbname: 'dev'
+        user: 'dev'
+        password: 'dev'
+        host: mysql
