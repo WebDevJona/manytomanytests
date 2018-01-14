@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "webdevjona/manytomanytests",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebDevJona\\ManyToManyTests\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WebDevJona.ManyToManyTests"
+        }
+    }
+}
